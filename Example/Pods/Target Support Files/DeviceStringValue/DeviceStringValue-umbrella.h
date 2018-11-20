@@ -12,6 +12,6 @@
 
 #import "DisplayDeviceString.h"
 
-FOUNDATION_EXPORT double DeviceStringNameVersionNumber;
-FOUNDATION_EXPORT const unsigned char DeviceStringNameVersionString[];
+FOUNDATION_EXPORT double DeviceStringValueVersionNumber;
+FOUNDATION_EXPORT const unsigned char DeviceStringValueVersionString[];
 

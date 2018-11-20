@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/pateljinal1844/DeviceStringName'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'pateljinal1844' => 'jinal.dholakia@infostretch.com' }
+  s.author           = { 'pateljinal1844' => 'Jinal' }
   s.source           = { :git => 'https://github.com/pateljinal1844/DeviceStringName.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

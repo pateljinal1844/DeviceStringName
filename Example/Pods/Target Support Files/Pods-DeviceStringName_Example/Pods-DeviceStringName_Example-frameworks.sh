@@ -143,10 +143,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/DeviceStringName/DeviceStringName.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DeviceStringValue/DeviceStringValue.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/DeviceStringName/DeviceStringName.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DeviceStringValue/DeviceStringValue.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

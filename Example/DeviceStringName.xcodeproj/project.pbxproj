@@ -319,11 +319,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DeviceStringName_Example/Pods-DeviceStringName_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/DeviceStringName/DeviceStringName.framework",
+				"${BUILT_PRODUCTS_DIR}/DeviceStringValue/DeviceStringValue.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceStringName.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceStringValue.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

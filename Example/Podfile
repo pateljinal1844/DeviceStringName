@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'DeviceStringName_Example' do
-  pod 'DeviceStringName', :path => '../'
+  pod 'DeviceStringValue', :path => '../'
 
   target 'DeviceStringName_Tests' do
     inherit! :search_paths

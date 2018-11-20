@@ -1,16 +1,16 @@
 PODS:
-  - DeviceStringName (0.1.0)
+  - DeviceStringValue (0.1.0)
 
 DEPENDENCIES:
-  - DeviceStringName (from `../`)
+  - DeviceStringValue (from `../`)
 
 EXTERNAL SOURCES:
-  DeviceStringName:
+  DeviceStringValue:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DeviceStringName: 4e7ab4488cea1bbfb4a2fe435e1dacdee581276c
+  DeviceStringValue: 7827026e1f42378f78c7eca8ac1d8c8c03c987fa
 
-PODFILE CHECKSUM: afa9f937afeacbef4c09576b4b786424d026535c
+PODFILE CHECKSUM: 50cfe47961ff604b391612c264f59782342b2a63
 
 COCOAPODS: 1.5.3

@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## DeviceStringName
+## DeviceStringValue
 
 Copyright (c) 2018 pateljinal1844 <jinal.dholakia@infostretch.com>
 
