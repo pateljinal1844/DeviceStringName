@@ -1,7 +1,7 @@
 {
   "name": "DeviceStringName",
   "version": "0.1.0",
-  "summary": "A short description of DeviceStringName.",
+  "summary": "Display name of device.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/pateljinal1844/DeviceStringName",
   "license": {

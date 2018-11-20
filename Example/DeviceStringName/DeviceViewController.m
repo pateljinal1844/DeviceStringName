@@ -7,6 +7,7 @@
 //
 
 #import "DeviceViewController.h"
+#import "DisplayDeviceString.h"
 
 @interface DeviceViewController ()
 
@@ -17,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [DisplayDeviceString displayDeviceString];
 }
 
 - (void)didReceiveMemoryWarning
