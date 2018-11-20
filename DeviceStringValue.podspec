@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'DeviceStringName'
+  s.name             = 'DeviceStringValue'
   s.version          = '0.1.0'
   s.summary          = 'Display name of device.'
 
