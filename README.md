@@ -22,7 +22,7 @@ pod 'DeviceStringName'
 
 ## Author
 
-pateljinal1844, jinal.dholakia@infostretch.com
+pateljinal1844
 
 ## License
 
