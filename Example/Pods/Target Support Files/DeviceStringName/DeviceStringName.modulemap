@@ -1,0 +1,6 @@
+framework module DeviceStringName {
+  umbrella header "DeviceStringName-umbrella.h"
+
+  export *
+  module * { export * }
+}
