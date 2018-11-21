@@ -17,21 +17,14 @@
     NSString *deviceString = [NSString stringWithCString:systemInfo.machine
                                                 encoding:NSUTF8StringEncoding];
     
-    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"" message:@"" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Device String Name" message:deviceString preferredStyle:UIAlertControllerStyleAlert];
     [alertController addTextFieldWithConfigurationHandler:^(UITextField * _Nonnull textField) {
-        textField.placeholder = @"Current password";
+        textField.placeholder = @"Device String Name";
         textField.text = deviceString;
     }];
     UIAlertAction *confirmAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        NSLog(@"Current password %@", [[alertController textFields][0] text]);
-        //compare the current password and do action here
-        
     }];
     [alertController addAction:confirmAction];
-    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
-        NSLog(@"Canelled");
-    }];
-    [alertController addAction:cancelAction];
     [[[[[UIApplication sharedApplication] windows] objectAtIndex:0] rootViewController] presentViewController:alertController animated:true completion:nil];
 }
 @end
